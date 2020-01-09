@@ -9,8 +9,8 @@ const App = () => {
   const [searchVal, setSearchVal] = useState("");
   const [query, setQuery] = useState("chicken");
   const [searchStatus, setSearchStatus] = useState("");
-  const APP_ID = "0f15eec3"; 
-  const APP_KEY = "2599a431275fc5efa179a4bffa7c2cac";
+  const APP_ID = ""; 
+  const APP_KEY = "";
   const reqUrl = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
  
